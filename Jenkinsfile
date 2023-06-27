@@ -13,7 +13,7 @@ pipeline{
         }
         stage('3-pr-test'){
             steps{
-                echo "testing....."
+                echo "mvn"
             }
         }
     }
