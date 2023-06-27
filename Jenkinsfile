@@ -11,5 +11,10 @@ pipeline{
                 echo "building...."
             }
         }
+        stage('3-pr-test'){
+            steps{
+                echo "testing....."
+            }
+        }
     }
 }
